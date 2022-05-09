@@ -25,7 +25,6 @@ module Swimmy
         info[:pref] = prefname
         info[:date] = dayby.strftime("%Y年%m月%d日")
         info[:date2] = daybyby.strftime("%Y年%m月%d日")
-        info[:dateby] = daybyby.strftime("%Y%m%d")
         puts result
         
         if result["itemList"][0] == nil
